@@ -1,6 +1,10 @@
 package ro.ulbs.paradigme.lab2.forme;
 
 public class Form {
+    private static int counter;
+    static {
+        counter = 0;
+    }
     private String color;
 
     public Form() {
