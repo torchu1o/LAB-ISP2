@@ -7,7 +7,7 @@ public class Main {
         System.out.println("\nSortare alfabetică pe grupe:");
         studenti.stream().sorted(new ComparatorNume()).forEach(System.out::println);
 
-        System.out.println("\nSortare descrescătoare a mediilor pentru integraliști:");
+        System.out.println("\nSortare descrescatoare a mediilor pentru integraliști:");
         studenti.stream().filter(s -> s.restante() == 0).sorted(new ComparatorMedie()).forEach(System.out::println);
 
         System.out.println("\nSortare crescătoare a numărului de restanțe pentru restanțieri:");
