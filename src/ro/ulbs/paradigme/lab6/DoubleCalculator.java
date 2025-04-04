@@ -5,8 +5,9 @@ class DoubleCalculator extends ACalculator {
         this.state = n;
     }
 
-    protected void init() {
+    protected DoubleCalculator init() {
         this.state = 0.0;
+        return this;
     }
 
     public DoubleCalculator add(double value) {

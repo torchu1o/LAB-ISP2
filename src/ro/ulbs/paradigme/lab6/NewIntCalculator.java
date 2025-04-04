@@ -4,8 +4,9 @@ class NewIntCalculator extends ACalculator {
         this.state = n;
     }
 
-    protected void init() {
+    protected NewIntCalculator init() {
         this.state = 0;
+        return this;     //am facut metoda init inlantuibila inlocuind tipul cu numele clasei si punand return this la final
     }
 
     public NewIntCalculator add(int value) {
