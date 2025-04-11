@@ -1,11 +1,11 @@
 package ro.ulbs.paradigme.lab6;
 
-class DoubleCalculator extends ACalculator {
+public class DoubleCalculator extends ACalculator {
     public DoubleCalculator(double n) {
         this.state = n;
     }
 
-    protected DoubleCalculator init() {
+    public DoubleCalculator init() {
         this.state = 0.0;
         return this;
     }
